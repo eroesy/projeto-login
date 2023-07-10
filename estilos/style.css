@@ -3,7 +3,7 @@
 
 /* Paleta de cores 
 vermlara - #A32E17
-marrom - #3D2E21
+marrom - #3D2E21-#271d15
 laranja - #D66709
  
 
@@ -31,14 +31,17 @@ main{
 section#login{
     position: absolute;
     background-color: white;
-    height: 500px;
     width: 250px;
+    height: 500px;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 5px black;
+    transition: width .4s, heigth .4s;
+    transition-timing-function: ease;
    
 }
 section#login > div#imagem{
@@ -47,12 +50,12 @@ section#login > div#imagem{
     background-size: cover;
     background-position: left bottom;
    
-    
+  
     height: 200px;
 
 }
 
 section#login > div#formulario{
-    display: block;
+    float: left;
     padding: 10px;
 }
