@@ -32,7 +32,7 @@ section#login{
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 510px;
     
     top: 50%;
     left: 50%;
@@ -58,4 +58,62 @@ section#login > div#imagem{
 section#login > div#formulario{
     float: left;
     padding: 10px;
+}
+form > input[type=submit]{
+    color: white;
+    background-color:   #011C26;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+div.campo{
+    background-color: #011C26;
+    height: 40px;
+    border-radius: 5px;
+    margin: 8px 0px;
+
+}
+div.campo > label >span{
+   color: #d6690979;
+
+}
+form > input[type=submit]:hover{
+    background-color: #044f6b;
+
+
+}
+form  a.botao{
+    text-align: center;
+    display: block;
+    color: #011C26;
+    font-size: 1em;
+    text-decoration: none;
+    border: 1px solid #011C26;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    
+    
+
+}
+form a.botao:hover{
+    background-color: #022c3b;
+    color: white;
+}
+form > a.botao > span{
+    font-size: 0.8em;
+
+}
+
+form > div.campo{
+
+
+
 }
